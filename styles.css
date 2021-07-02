@@ -1,0 +1,67 @@
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 5rem;
+  margin-left: 1rem;
+}
+
+.circle {
+  background: #f5a962;
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  position: relative;
+  left: 5rem;
+  opacity: 85%;
+}
+
+.circle:nth-of-type(2) {
+  background: #125d98;
+  left: 0;
+  position: relative;
+  opacity: 80%;
+  width: 200px;
+  height: 200px;
+}
+
+.circle:nth-of-type(3) {
+  background: #dddddd;
+  left: -300px;
+  top: -100px;
+  width: 150px;
+  height: 150px;
+}
+
+.circle:nth-of-type(4) {
+  left: -710px;
+  top: -70px;
+}
+
+.circle:nth-of-type(5) {
+  width: 130px;
+  height: 130px;
+  left: -949px;
+  top: 70px;
+  background-color: #3c8dad;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #31326f;
+}
+
+.nav-link {
+  color: #31326f;
+}
+
+.col-sm-6 {
+  padding: 0 7rem 0 2rem;
+}
+
+.col-sm-8 {
+  padding: 0 7rem 0 0;
+}
+
+a {
+  color: #125d98;
+  font-weight: 400;
+}
